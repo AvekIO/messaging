@@ -9,6 +9,9 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-
+        $this->call(ChatSeeder::class);
+        $this->call(TelegramUserSeeder::class);
+        $this->call(BotChatTelegramUserSeeder::class);
+        $this->call(MessageSeeder::class);
     }
 }
