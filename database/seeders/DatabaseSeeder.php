@@ -11,5 +11,6 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(ChatSeeder::class);
         $this->call(MessageSeeder::class);
+        $this->call(TelegramUserSeeder::class);
     }
 }
