@@ -11,4 +11,6 @@ class BotChatTelegramUser extends Model
     use HasFactory;
 
     public const UPDATED_AT = null;
+    
+    protected $table = 'bot_chat_telegram_user';
 }
